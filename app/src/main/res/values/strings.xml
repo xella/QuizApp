@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Quiz App</string>
+    <string name="question_one">Which of the following European cities is not a national capital?</string>
+    <string name="question_two">Tallin is the capital city of which Eastern European country?</string>
+    <string name="question_three">Which country was divided into East ans West between the 1940s and 1990s?</string>
+    <string name="question_four">Which of these European countries does not have a border with Germany?</string>
+    <string name="question_five">What is on the picture? (multiple answers)</string>
+    <string name="question_six">Which country is often called the \'Emerald Isle\'?</string>
+    <string name="question_seven">Which river flows through Warsaw, Poland?</string>
+    <string name="question_eight">Which country covers a larger area - Germany or Spain?</string>
+    <string name="question_nine">Which of these European countries does not contain part of the Apls mountain range?</string>
+    <string name="question_ten">What is on the picture?</string>
 </resources>

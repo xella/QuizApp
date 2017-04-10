@@ -30,7 +30,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Which of the following European cities is not a national capital?" />
+                        android:text="@string/question_one" />
 
                     <RadioGroup
                         android:id="@+id/first_answer_rg"
@@ -73,7 +73,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Tallin is the capital city of which Eastern European country?" />
+                        android:text="@string/question_two" />
 
                     <RadioGroup
                         android:id="@+id/second_answer_rg"
@@ -116,7 +116,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Which country was divided into East ans West between the 1940s and 1990s?" />
+                        android:text="@string/question_three" />
 
                     <EditText
                         android:id="@+id/third_answer"
@@ -144,7 +144,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Which of these European countries does not have a border with Germany?" />
+                        android:text="@string/question_four" />
 
                     <CheckBox
                         android:layout_width="match_parent"
@@ -193,19 +193,13 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="What is on the picture?" />
+                        android:text="@string/question_five" />
 
                     <CheckBox
                         android:id="@+id/fifth_answer_1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Nurnberger Sausages" />
-
-                    <CheckBox
-                        android:id="@+id/fifth_answer_2"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Bier" />
 
                     <CheckBox
                         android:layout_width="match_parent"
@@ -216,6 +210,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Crêpe" />
+
+                    <CheckBox
+                        android:id="@+id/fifth_answer_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bier" />
 
                 </LinearLayout>
 
@@ -236,7 +236,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Which country is often called the \'Emerald Isle\'?" />
+                        android:text="@string/question_six" />
 
                     <EditText
                         android:id="@+id/sixth_answer"
@@ -265,7 +265,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Which river flows through Warsaw, Poland?" />
+                        android:text="@string/question_seven" />
 
                     <RadioGroup
                         android:id="@+id/seventh_answer_rg"
@@ -313,7 +313,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Which country covers a larger area - Germany or Spain?" />
+                        android:text="@string/question_eight" />
 
                     <EditText
                         android:id="@+id/eight_answer"
@@ -342,7 +342,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Which of these European countries does not contain part of the Apls mountain range?"
+                        android:text="@string/question_nine"
                         tools:layout_editor_absoluteX="8dp"
                         tools:layout_editor_absoluteY="0dp" />
 
@@ -395,7 +395,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="What is on the picture?" />
+                        android:text="@string/question_ten" />
 
                     <RadioGroup
                         android:id="@+id/tenth_answer_rg"
