@@ -2,78 +2,88 @@ package com.example.maria.quizapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
+import static com.example.maria.quizapp.R.id.eight_answer;
+import static com.example.maria.quizapp.R.id.first_answer_rg;
+import static com.example.maria.quizapp.R.id.fourth_answer_1;
+import static com.example.maria.quizapp.R.id.fourth_answer_2;
+import static com.example.maria.quizapp.R.id.ninth_answer_rg;
+import static com.example.maria.quizapp.R.id.second_answer_rg;
+import static com.example.maria.quizapp.R.id.seventh_answer_rg;
+import static com.example.maria.quizapp.R.id.sixth_answer;
+import static com.example.maria.quizapp.R.id.tenth_answer_rg;
+import static com.example.maria.quizapp.R.id.third_answer;
+
 public class MainActivity extends AppCompatActivity {
 
     int score = 0;
-
-    //Questions firstQuestions = new Questions("Which of the following European cities is not a national capital?","Zurich");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
-        Button submitBtn = (Button) findViewById(R.id.submit_btn);
-        submitBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                // First question
-                RadioGroup firstQRG = (RadioGroup) findViewById(R.id.first_answer_rg);
-                int firstAnswer = firstQRG.getCheckedRadioButtonId();
-                RadioButton firstAnswerRB = (RadioButton) findViewById(firstAnswer);
-                String firstCheckedValue = firstAnswerRB.getText().toString();
-                if (firstCheckedValue.equals("Zurich")) {
-                    score ++;
-                }
-
-                // Second question
-                RadioGroup secondQRG = (RadioGroup) findViewById(R.id.second_answer_rg);
-                int secondAnswer = secondQRG.getCheckedRadioButtonId();
-                RadioButton secondAnswerRB = (RadioButton) findViewById(secondAnswer);
-                String secondAnswerValue = secondAnswerRB.getText().toString();
-                if (secondAnswerValue.equals("Estonia")) {
-                    score ++;
-                }
-
-                // Third question
-                EditText thirdQET = (EditText) findViewById(R.id.third_answer);
-                String thirdAnswer = thirdQET.getText().toString();
-                if (thirdAnswer.equals("Germany") ) {
-                    score ++;
-                }
-
-                Toast.makeText(getApplicationContext(), "Your score is " + score + " points!", Toast.LENGTH_LONG).show();
-
-
-            }
-
-
-        });
-
-
-
     }
 
-//    public void checkRadioButtons(int radioGroupId, String correctAnswer) {
-//        RadioGroup radioGroup = (RadioGroup) findViewById(radioGroupId);
-//        int checkedAnswer = radioGroup.getCheckedRadioButtonId();
-//        RadioButton checkedRadioButton = (RadioButton) findViewById(checkedAnswer);
-//        String checkedAnswerValue = checkedRadioButton.getText().toString();
-//        if (checkedAnswerValue.equals(correctAnswer)) {
-//            score ++;
-//        }
-//
-//    }
+    public void submitBtn(View view) {
 
+        radioGroupCheck(first_answer_rg, "Zurich");
 
+        radioGroupCheck(second_answer_rg, "Estonia");
+
+        editTextCheck(third_answer, "germany");
+
+        checkboxCheck(fourth_answer_1, fourth_answer_2);
+
+        editTextCheck(sixth_answer, "ireland");
+
+        radioGroupCheck(seventh_answer_rg, "vistula");
+
+        editTextCheck(eight_answer, "spain");
+
+        radioGroupCheck(ninth_answer_rg, "hungary");
+
+        radioGroupCheck(tenth_answer_rg, "Eiffel Tower");
+
+        Toast.makeText(getApplicationContext(), "Your score is " + score + " points!", Toast.LENGTH_LONG).show();
+
+        score = 0;
+    }
+
+    public void checkboxCheck(int rightCheckbox1, int rightCheckbox2) {
+        CheckBox rightAnswer1 = (CheckBox) findViewById(rightCheckbox1);
+        CheckBox rightAnswer2 = (CheckBox) findViewById(rightCheckbox2);
+        if (rightAnswer1.isChecked() && rightAnswer2.isChecked()) {
+            score ++;
+        }
+    }
+
+    public void radioGroupCheck(int checkedRadioId, String rightAnswer) {
+        RadioGroup radioGroupCheck = (RadioGroup) findViewById(checkedRadioId);
+        int checkedRadioButtonId = radioGroupCheck.getCheckedRadioButtonId();
+        RadioButton checkedAnswer = (RadioButton) findViewById(checkedRadioButtonId);
+        if (checkedAnswer == null) {
+            return;
+        }
+        String checkedAnswerValue = checkedAnswer.getText().toString();
+        if (checkedAnswerValue != null && checkedAnswerValue.equalsIgnoreCase(rightAnswer)) {
+            score ++;
+        }
+    }
+
+    public void editTextCheck(int editTextId, String rightAnswer) {
+        EditText editTextCheck = (EditText) findViewById(editTextId);
+        if (editTextCheck == null) {
+            return;
+        }
+        String editTextAnswerValue = editTextCheck.getText().toString();
+        if (editTextAnswerValue != null && editTextAnswerValue.equalsIgnoreCase(rightAnswer)) {
+            score ++;
+        }
+    }
 }
