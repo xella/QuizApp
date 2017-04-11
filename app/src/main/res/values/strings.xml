@@ -26,14 +26,14 @@
 
     <!-- Fifth question and answers -->
     <string name="question_five">What is on the picture? (multiple answers)</string>
-    <string name="question_five_answer1">Nurnberger Sausages</string>
+    <string name="question_five_answer1">Sausages</string>
     <string name="question_five_answer2">Hummus</string>
     <string name="question_five_answer3">Crêpe</string>
     <string name="question_five_answer4">Bier</string>
 
     <!-- Sixth question and answers -->
     <string name="question_six">Which country is often called the \'Emerald Isle\'?</string>
-    <string name="question_six_answer">Ireland</string>
+    <string name="question_six_answer">Irland</string>
 
     <!-- Seventh question and answers -->
     <string name="question_seven">Which river flows through Warsaw, Poland?</string>

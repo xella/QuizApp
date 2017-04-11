@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
         radioGroupCheck(ninth_answer_rg, getString(R.string.question_nine_answer3));
 
-        radioGroupCheck(tenth_answer_rg, getString(R.string.question_ten_answer4));
+        radioGroupCheck(tenth_answer_rg, getString(R.string.question_ten_answer1));
 
         Toast.makeText(getApplicationContext(), "Your score is " + score + " out of 10 points!", Toast.LENGTH_LONG).show();
 
