@@ -8,6 +8,14 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="CardViewStyle">
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+    <style name="CardViewLinearLayout">
+        <item name="android:padding">16dp</item>
+    </style>
+
     <style name="TextViewWithQuestion">
         <item name="android:layout_marginBottom">16dp</item>
         <item name="android:textSize">18sp</item>
@@ -16,5 +24,17 @@
     <style name="ImageViewForQuestion">
         <item name="android:scaleType">centerCrop</item>
         <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:inputType">text</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="SubmitBtn">
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@android:color/white</item>
     </style>
 </resources>

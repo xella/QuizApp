@@ -10,4 +10,5 @@
     <string name="question_eight">Which country covers a larger area - Germany or Spain?</string>
     <string name="question_nine">Which of these European countries does not contain part of the Apls mountain range?</string>
     <string name="question_ten">What is on the picture?</string>
+    <string name="submit_btn">Sumbit answers</string>
 </resources>

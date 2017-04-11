@@ -17,15 +17,15 @@
 
             <!-- First question with Radio Buttons -->
             <android.support.v7.widget.CardView
+                style="@style/CardViewStyle"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp">
+                android:layout_height="wrap_content">
 
                 <LinearLayout
+                    style="@style/CardViewLinearLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="16dp">
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextViewWithQuestion"
@@ -61,15 +61,15 @@
 
             <!-- Second question with Radio Buttons -->
             <android.support.v7.widget.CardView
+                style="@style/CardViewStyle"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp">
+                android:layout_height="wrap_content">
 
                 <LinearLayout
+                    style="@style/CardViewLinearLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="16dp">
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextViewWithQuestion"
@@ -105,15 +105,15 @@
 
             <!-- Third question with Edit Text-->
             <android.support.v7.widget.CardView
+                style="@style/CardViewStyle"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp">
+                android:layout_height="wrap_content">
 
                 <LinearLayout
+                    style="@style/CardViewLinearLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="16dp">
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextViewWithQuestion"
@@ -122,11 +122,10 @@
                         android:text="@string/question_three" />
 
                     <EditText
+                        style="@style/EditTextStyle"
                         android:id="@+id/third_answer"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:inputType="text"
-                        android:maxLines="1" />
+                        android:layout_height="wrap_content" />
 
                 </LinearLayout>
 
@@ -134,15 +133,15 @@
 
             <!-- Fourth question with Checkboxes -->
             <android.support.v7.widget.CardView
+                style="@style/CardViewStyle"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp">
+                android:layout_height="wrap_content">
 
                 <LinearLayout
+                    style="@style/CardViewLinearLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="16dp">
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextViewWithQuestion"
@@ -176,23 +175,24 @@
 
             </android.support.v7.widget.CardView>
 
-            <!-- Fifth question with Checkboxes-->
+            <!-- Fifth question with Checkboxes and Image View-->
             <android.support.v7.widget.CardView
+                style="@style/CardViewStyle"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp">
+                android:layout_height="wrap_content">
 
                 <LinearLayout
+                    style="@style/CardViewLinearLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="16dp">
+                    android:orientation="vertical">
 
                     <ImageView
                         style="@style/ImageViewForQuestion"
                         android:layout_width="match_parent"
                         android:layout_height="200dp"
                         android:src="@drawable/wurst_bier" />
+
                     <TextView
                         style="@style/TextViewWithQuestion"
                         android:layout_width="match_parent"
@@ -227,15 +227,15 @@
 
             <!-- Sixth question with Edit Text -->
             <android.support.v7.widget.CardView
+                style="@style/CardViewStyle"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp">
+                android:layout_height="wrap_content">
 
                 <LinearLayout
+                    style="@style/CardViewLinearLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="16dp">
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextViewWithQuestion"
@@ -244,12 +244,10 @@
                         android:text="@string/question_six" />
 
                     <EditText
+                        style="@style/EditTextStyle"
                         android:id="@+id/sixth_answer"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:inputType="text"
-                        android:maxLines="1"
-                        android:singleLine="true" />
+                        android:layout_height="wrap_content" />
 
                 </LinearLayout>
 
@@ -257,15 +255,15 @@
 
             <!-- Seventh question with Radio Buttons -->
             <android.support.v7.widget.CardView
+                style="@style/CardViewStyle"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp">
+                android:layout_height="wrap_content">
 
                 <LinearLayout
+                    style="@style/CardViewLinearLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="16dp">
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextViewWithQuestion"
@@ -306,15 +304,15 @@
 
             <!-- Eighth question with Edit Text-->
             <android.support.v7.widget.CardView
+                style="@style/CardViewStyle"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp">
+                android:layout_height="wrap_content">
 
                 <LinearLayout
+                    style="@style/CardViewLinearLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="16dp">
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextViewWithQuestion"
@@ -326,9 +324,7 @@
                         android:id="@+id/eight_answer"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:inputType="text"
-                        android:maxLines="1"
-                        android:singleLine="true" />
+                        style="@style/EditTextStyle"/>
 
                 </LinearLayout>
 
@@ -336,15 +332,15 @@
 
             <!-- Ninth question with Radio Buttons-->
             <android.support.v7.widget.CardView
+                style="@style/CardViewStyle"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp">
+                android:layout_height="wrap_content">
 
                 <LinearLayout
+                    style="@style/CardViewLinearLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="16dp">
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextViewWithQuestion"
@@ -378,22 +374,22 @@
 
             </android.support.v7.widget.CardView>
 
-            <!-- Tenth question Radio Buttons-->
+            <!-- Tenth question Radio Buttons and Image View-->
             <android.support.v7.widget.CardView
+                style="@style/CardViewStyle"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp">
+                android:layout_height="wrap_content">
 
                 <LinearLayout
+                    style="@style/CardViewLinearLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="16dp">
+                    android:orientation="vertical">
 
                     <ImageView
+                        style="@style/ImageViewForQuestion"
                         android:layout_width="match_parent"
                         android:layout_height="200dp"
-                        android:scaleType="centerCrop"
                         android:src="@drawable/eiffel_tower" />
 
                     <TextView
@@ -433,13 +429,14 @@
 
             </android.support.v7.widget.CardView>
 
+            <!-- Submit button for checking answers-->
             <Button
                 android:id="@+id/submit_btn"
+                style="@style/SubmitBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:text="Sumbit answers"
-                android:onClick="submitBtn"/>
+                android:onClick="submitBtn"
+                android:text="@string/submit_btn" />
         </LinearLayout>
 
     </ScrollView>
