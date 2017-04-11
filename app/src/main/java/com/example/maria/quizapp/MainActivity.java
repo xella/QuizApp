@@ -10,6 +10,8 @@ import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import static com.example.maria.quizapp.R.id.eight_answer;
+import static com.example.maria.quizapp.R.id.fifth_answer_1;
+import static com.example.maria.quizapp.R.id.fifth_answer_2;
 import static com.example.maria.quizapp.R.id.first_answer_rg;
 import static com.example.maria.quizapp.R.id.fourth_answer_1;
 import static com.example.maria.quizapp.R.id.fourth_answer_2;
@@ -39,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
         editTextCheck(third_answer, "Germany");
 
         checkboxCheck(fourth_answer_1, fourth_answer_2);
+
+        checkboxCheck(fifth_answer_1, fifth_answer_2);
 
         editTextCheck(sixth_answer, "Ireland");
 
