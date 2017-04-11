@@ -8,4 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TextViewWithQuestion">
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="ImageViewForQuestion">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
 </resources>

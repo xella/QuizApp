@@ -36,21 +36,21 @@ public class MainActivity extends AppCompatActivity {
 
         radioGroupCheck(second_answer_rg, "Estonia");
 
-        editTextCheck(third_answer, "germany");
+        editTextCheck(third_answer, "Germany");
 
         checkboxCheck(fourth_answer_1, fourth_answer_2);
 
-        editTextCheck(sixth_answer, "ireland");
+        editTextCheck(sixth_answer, "Ireland");
 
-        radioGroupCheck(seventh_answer_rg, "vistula");
+        radioGroupCheck(seventh_answer_rg, "Vistula");
 
-        editTextCheck(eight_answer, "spain");
+        editTextCheck(eight_answer, "Spain");
 
-        radioGroupCheck(ninth_answer_rg, "hungary");
+        radioGroupCheck(ninth_answer_rg, "Hungary");
 
         radioGroupCheck(tenth_answer_rg, "Eiffel Tower");
 
-        Toast.makeText(getApplicationContext(), "Your score is " + score + " points!", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "Your score is " + score + " out of 10 points!", Toast.LENGTH_LONG).show();
 
         score = 0;
     }

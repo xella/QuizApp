@@ -28,6 +28,7 @@
                     android:padding="16dp">
 
                     <TextView
+                        style="@style/TextViewWithQuestion"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/question_one" />
@@ -71,6 +72,7 @@
                     android:padding="16dp">
 
                     <TextView
+                        style="@style/TextViewWithQuestion"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/question_two" />
@@ -114,6 +116,7 @@
                     android:padding="16dp">
 
                     <TextView
+                        style="@style/TextViewWithQuestion"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/question_three" />
@@ -142,6 +145,7 @@
                     android:padding="16dp">
 
                     <TextView
+                        style="@style/TextViewWithQuestion"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/question_four" />
@@ -185,12 +189,12 @@
                     android:padding="16dp">
 
                     <ImageView
+                        style="@style/ImageViewForQuestion"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:scaleType="fitStart"
+                        android:layout_height="200dp"
                         android:src="@drawable/wurst_bier" />
-
                     <TextView
+                        style="@style/TextViewWithQuestion"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/question_five" />
@@ -234,6 +238,7 @@
                     android:padding="16dp">
 
                     <TextView
+                        style="@style/TextViewWithQuestion"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/question_six" />
@@ -263,6 +268,7 @@
                     android:padding="16dp">
 
                     <TextView
+                        style="@style/TextViewWithQuestion"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/question_seven" />
@@ -311,6 +317,7 @@
                     android:padding="16dp">
 
                     <TextView
+                        style="@style/TextViewWithQuestion"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/question_eight" />
@@ -340,18 +347,15 @@
                     android:padding="16dp">
 
                     <TextView
+                        style="@style/TextViewWithQuestion"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/question_nine"
-                        tools:layout_editor_absoluteX="8dp"
-                        tools:layout_editor_absoluteY="0dp" />
+                        android:text="@string/question_nine" />
 
                     <RadioGroup
                         android:id="@+id/ninth_answer_rg"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        tools:layout_editor_absoluteX="8dp"
-                        tools:layout_editor_absoluteY="0dp">
+                        android:layout_height="wrap_content">
 
                         <RadioButton
                             android:layout_width="match_parent"
@@ -388,11 +392,12 @@
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:scaleType="fitStart"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
                         android:src="@drawable/eiffel_tower" />
 
                     <TextView
+                        style="@style/TextViewWithQuestion"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/question_ten" />
