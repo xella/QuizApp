@@ -34,25 +34,25 @@ public class MainActivity extends AppCompatActivity {
 
     public void submitBtn(View view) {
 
-        radioGroupCheck(first_answer_rg, "Zurich");
+        radioGroupCheck(first_answer_rg, getString(R.string.question_one_answer3));
 
-        radioGroupCheck(second_answer_rg, "Estonia");
+        radioGroupCheck(second_answer_rg, getString(R.string.question_two_answer1));
 
-        editTextCheck(third_answer, "Germany");
+        editTextCheck(third_answer, getString(R.string.question_three_answer));
 
         checkboxCheck(fourth_answer_1, fourth_answer_2);
 
         checkboxCheck(fifth_answer_1, fifth_answer_2);
 
-        editTextCheck(sixth_answer, "Ireland");
+        editTextCheck(sixth_answer, getString(R.string.question_six_answer));
 
-        radioGroupCheck(seventh_answer_rg, "Vistula");
+        radioGroupCheck(seventh_answer_rg, getString(R.string.question_seven_answer3));
 
-        editTextCheck(eight_answer, "Spain");
+        editTextCheck(eight_answer, getString(R.string.question_eight_answer));
 
-        radioGroupCheck(ninth_answer_rg, "Hungary");
+        radioGroupCheck(ninth_answer_rg, getString(R.string.question_nine_answer3));
 
-        radioGroupCheck(tenth_answer_rg, "Eiffel Tower");
+        radioGroupCheck(tenth_answer_rg, getString(R.string.question_ten_answer4));
 
         Toast.makeText(getApplicationContext(), "Your score is " + score + " out of 10 points!", Toast.LENGTH_LONG).show();
 

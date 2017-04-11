@@ -5,7 +5,7 @@
     <string name="question_one">Which of the following European cities is not a national capital?</string>
     <string name="question_one_answer1">Brussels</string>
     <string name="question_one_answer2">Vienna</string>
-    <string name="question_one_answer3">Vienna</string>
+    <string name="question_one_answer3">Zurich</string>
 
     <!-- Second question and answers -->
     <string name="question_two">Tallin is the capital city of which Eastern European country?</string>
