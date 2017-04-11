@@ -190,7 +190,7 @@
                     <ImageView
                         style="@style/ImageViewForQuestion"
                         android:layout_width="match_parent"
-                        android:layout_height="200dp"
+                        android:layout_height="@dimen/imageview_height"
                         android:src="@drawable/wurst_bier" />
 
                     <TextView
@@ -389,7 +389,7 @@
                     <ImageView
                         style="@style/ImageViewForQuestion"
                         android:layout_width="match_parent"
-                        android:layout_height="200dp"
+                        android:layout_height="@dimen/imageview_height"
                         android:src="@drawable/eiffel_tower" />
 
                     <TextView

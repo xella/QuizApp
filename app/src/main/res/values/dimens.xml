@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardview_margin">16dp</dimen>
+    <dimen name="cardview_linear_layout_padding">16dp</dimen>
+    <dimen name="textview_margin">16dp</dimen>
+    <dimen name="textview_text_size">18sp</dimen>
+    <dimen name="imageview_margin">16dp</dimen>
+    <dimen name="imageview_height">200dp</dimen>
+    <dimen name="submit_btn_margin">16dp</dimen>
+</resources>

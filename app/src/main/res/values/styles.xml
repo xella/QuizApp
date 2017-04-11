@@ -9,21 +9,21 @@
     </style>
 
     <style name="CardViewStyle">
-        <item name="android:layout_margin">16dp</item>
+        <item name="android:layout_margin">@dimen/cardview_margin</item>
     </style>
 
     <style name="CardViewLinearLayout">
-        <item name="android:padding">16dp</item>
+        <item name="android:padding">@dimen/cardview_linear_layout_padding</item>
     </style>
 
     <style name="TextViewWithQuestion">
-        <item name="android:layout_marginBottom">16dp</item>
-        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginBottom">@dimen/textview_margin</item>
+        <item name="android:textSize">@dimen/textview_text_size</item>
     </style>
 
     <style name="ImageViewForQuestion">
         <item name="android:scaleType">centerCrop</item>
-        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginBottom">@dimen/imageview_margin</item>
     </style>
 
     <style name="EditTextStyle">
@@ -33,7 +33,7 @@
     </style>
 
     <style name="SubmitBtn">
-        <item name="android:layout_margin">16dp</item>
+        <item name="android:layout_margin">@dimen/submit_btn_margin</item>
         <item name="android:background">@color/colorPrimaryDark</item>
         <item name="android:textColor">@android:color/white</item>
     </style>
