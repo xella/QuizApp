@@ -41,17 +41,17 @@
                         <RadioButton
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Brussels" />
+                            android:text="@string/question_one_answer1" />
 
                         <RadioButton
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Vienna" />
+                            android:text="@string/question_one_answer2" />
 
                         <RadioButton
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Zurich" />
+                            android:text="@string/question_one_answer3" />
 
                     </RadioGroup>
 
@@ -85,17 +85,17 @@
                         <RadioButton
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Estonia" />
+                            android:text="@string/question_two_answer1" />
 
                         <RadioButton
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Latvia" />
+                            android:text="@string/question_two_answer2" />
 
                         <RadioButton
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Belarus" />
+                            android:text="@string/question_two_answer3" />
 
                     </RadioGroup>
 
@@ -122,8 +122,8 @@
                         android:text="@string/question_three" />
 
                     <EditText
-                        style="@style/EditTextStyle"
                         android:id="@+id/third_answer"
+                        style="@style/EditTextStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
 
@@ -152,24 +152,24 @@
                     <CheckBox
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Czech Republic" />
+                        android:text="@string/question_four_answer1" />
 
                     <CheckBox
                         android:id="@+id/fourth_answer_1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Italy" />
+                        android:text="@string/question_four_answer2" />
 
                     <CheckBox
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Denmark" />
+                        android:text="@string/question_four_answer3" />
 
                     <CheckBox
                         android:id="@+id/fourth_answer_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Portugal" />
+                        android:text="@string/question_four_answer4" />
 
                 </LinearLayout>
 
@@ -203,23 +203,23 @@
                         android:id="@+id/fifth_answer_1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Nurnberger Sausages" />
+                        android:text="@string/question_five_answer1" />
 
                     <CheckBox
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Hummus" />
+                        android:text="@string/question_five_answer2" />
 
                     <CheckBox
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Crêpe" />
+                        android:text="@string/question_five_answer3" />
 
                     <CheckBox
                         android:id="@+id/fifth_answer_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Bier" />
+                        android:text="@string/question_five_answer4" />
 
                 </LinearLayout>
 
@@ -244,8 +244,8 @@
                         android:text="@string/question_six" />
 
                     <EditText
-                        style="@style/EditTextStyle"
                         android:id="@+id/sixth_answer"
+                        style="@style/EditTextStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
 
@@ -279,22 +279,22 @@
                         <RadioButton
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Oder" />
+                            android:text="@string/question_seven_answer1" />
 
                         <RadioButton
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Opava" />
+                            android:text="@string/question_seven_answer2" />
 
                         <RadioButton
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Vistula" />
+                            android:text="@string/question_seven_answer3" />
 
                         <RadioButton
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Elbe" />
+                            android:text="@string/question_seven_answer4" />
                     </RadioGroup>
 
 
@@ -322,9 +322,9 @@
 
                     <EditText
                         android:id="@+id/eight_answer"
+                        style="@style/EditTextStyle"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        style="@style/EditTextStyle"/>
+                        android:layout_height="wrap_content" />
 
                 </LinearLayout>
 
@@ -356,17 +356,17 @@
                         <RadioButton
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="France" />
+                            android:text="@string/question_nine_answer1" />
 
                         <RadioButton
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Slovenia" />
+                            android:text="@string/question_nine_answer2" />
 
                         <RadioButton
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Hungary" />
+                            android:text="@string/question_nine_answer3" />
 
                     </RadioGroup>
 
@@ -406,22 +406,22 @@
                         <RadioButton
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Eiffel Tower" />
+                            android:text="@string/question_ten_answer1" />
 
                         <RadioButton
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Big Ben" />
+                            android:text="@string/question_ten_answer2" />
 
                         <RadioButton
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Reichstag" />
+                            android:text="@string/question_ten_answer3" />
 
                         <RadioButton
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Sagrada Familia" />
+                            android:text="@string/question_ten_answer4" />
 
                     </RadioGroup>
 

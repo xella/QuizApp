@@ -1,14 +1,66 @@
 <resources>
     <string name="app_name">Quiz App</string>
+
+    <!-- First question and answers -->
     <string name="question_one">Which of the following European cities is not a national capital?</string>
+    <string name="question_one_answer1">Brussels</string>
+    <string name="question_one_answer2">Vienna</string>
+    <string name="question_one_answer3">Vienna</string>
+
+    <!-- Second question and answers -->
     <string name="question_two">Tallin is the capital city of which Eastern European country?</string>
+    <string name="question_two_answer1">Estonia</string>
+    <string name="question_two_answer2">Latvia</string>
+    <string name="question_two_answer3">Belarus</string>
+
+    <!-- Third question and answers -->
     <string name="question_three">Which country was divided into East ans West between the 1940s and 1990s?</string>
+    <string name="question_three_answer">Germany</string>
+
+    <!-- Fourth question and answers -->
     <string name="question_four">Which of these European countries does not have a border with Germany?</string>
+    <string name="question_four_answer1">Czech Republic</string>
+    <string name="question_four_answer2">Italy</string>
+    <string name="question_four_answer3">Denmark</string>
+    <string name="question_four_answer4">Portugal</string>
+
+    <!-- Fifth question and answers -->
     <string name="question_five">What is on the picture? (multiple answers)</string>
+    <string name="question_five_answer1">Nurnberger Sausages</string>
+    <string name="question_five_answer2">Hummus</string>
+    <string name="question_five_answer3">Crêpe</string>
+    <string name="question_five_answer4">Bier</string>
+
+    <!-- Sixth question and answers -->
     <string name="question_six">Which country is often called the \'Emerald Isle\'?</string>
+    <string name="question_six_answer">Ireland</string>
+
+    <!-- Seventh question and answers -->
     <string name="question_seven">Which river flows through Warsaw, Poland?</string>
+    <string name="question_seven_answer1">Oder</string>
+    <string name="question_seven_answer2">Opava</string>
+    <string name="question_seven_answer3">Vistula</string>
+    <string name="question_seven_answer4">Elbe</string>
+
+    <!-- Eight question and answers -->
     <string name="question_eight">Which country covers a larger area - Germany or Spain?</string>
+    <string name="question_eight_answer">Spain</string>
+
+    <!-- Ninth question and answers -->
     <string name="question_nine">Which of these European countries does not contain part of the Apls mountain range?</string>
+    <string name="question_nine_answer1">France</string>
+    <string name="question_nine_answer2">Slovenia</string>
+    <string name="question_nine_answer3">Hungary</string>
+
+
+    <!-- Tenth question and answers -->
     <string name="question_ten">What is on the picture?</string>
+    <string name="question_ten_answer1">Eiffel Tower</string>
+    <string name="question_ten_answer2">Big Ben</string>
+    <string name="question_ten_answer3">Reichstag</string>
+    <string name="question_ten_answer4">Sagrada Familia</string>
+
+    <!-- Submit button text -->
     <string name="submit_btn">Sumbit answers</string>
+
 </resources>
