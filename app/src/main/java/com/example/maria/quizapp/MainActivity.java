@@ -54,7 +54,13 @@ public class MainActivity extends AppCompatActivity {
 
         radioGroupCheck(tenth_answer_rg, getString(R.string.question_ten_answer1));
 
-        Toast.makeText(getApplicationContext(), "Your score is " + score + " out of 10 points!", Toast.LENGTH_LONG).show();
+        if (score == 10) {
+            Toast.makeText(getApplicationContext(), "Awesome! You know everything!\nYour score is " + score + " out of 10 points!", Toast.LENGTH_LONG).show();
+        } else if ( score > 4 && score < 10 ) {
+            Toast.makeText(getApplicationContext(), "Good job! You know something.\nYour score is " + score + " out of 10 points!", Toast.LENGTH_LONG).show();
+        } else if (score <= 4) {
+            Toast.makeText(getApplicationContext(), "Hm... Maybe you should try again?\nYour score is " + score + " out of 10 points!", Toast.LENGTH_LONG).show();
+        }
 
         score = 0;
     }
