@@ -61,10 +61,15 @@ public class MainActivity extends AppCompatActivity {
         } else if (score <= 4) {
             Toast.makeText(getApplicationContext(), "Hm... Maybe you should try again?\nYour score is " + score + " out of 10 points!", Toast.LENGTH_LONG).show();
         }
-
+        
         score = 0;
     }
 
+    /**
+     * Method for checking right answers in questions with 2 right options
+     * @param rightCheckbox1 - first right answer
+     * @param rightCheckbox2 - second right answer
+     */
     public void checkboxCheck(int rightCheckbox1, int rightCheckbox2) {
         CheckBox rightAnswer1 = (CheckBox) findViewById(rightCheckbox1);
         CheckBox rightAnswer2 = (CheckBox) findViewById(rightCheckbox2);
@@ -73,8 +78,13 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void radioGroupCheck(int checkedRadioId, String rightAnswer) {
-        RadioGroup radioGroupCheck = (RadioGroup) findViewById(checkedRadioId);
+    /**
+     * Method for checking right answer in questions with Radio group
+     * @param radioGroupId - Radio group id
+     * @param rightAnswer - String with a right answer
+     */
+    public void radioGroupCheck(int radioGroupId, String rightAnswer) {
+        RadioGroup radioGroupCheck = (RadioGroup) findViewById(radioGroupId);
         int checkedRadioButtonId = radioGroupCheck.getCheckedRadioButtonId();
         RadioButton checkedAnswer = (RadioButton) findViewById(checkedRadioButtonId);
         if (checkedAnswer == null) {
@@ -86,6 +96,11 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * Method for checking right answer in EditText field
+     * @param editTextId - edit text id
+     * @param rightAnswer - String with a right answer
+     */
     public void editTextCheck(int editTextId, String rightAnswer) {
         EditText editTextCheck = (EditText) findViewById(editTextId);
         if (editTextCheck == null) {
