@@ -63,4 +63,9 @@
     <!-- Submit button text -->
     <string name="submit_btn">Sumbit answers</string>
 
+    <!-- Toast messages text -->
+    <string name="awesome_message">Awesome! You know everything!\nYour score is \s</string>
+    <string name="good_message">Good job! You know something.\nYour score is \s</string>
+    <string name="try_again_message">Hm... Maybe you should try again?\nYour score is \s</string>
+    <string name="message_ending">\s out of 10 points!</string>
 </resources>
